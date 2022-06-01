@@ -4,12 +4,29 @@
 
 body {
   background-image: url(../images/hero.jpg);
-    padding: 100px;
+    padding: 10px 20%;
     height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.nav-link a {
+  color: white;
+  text-transform: uppercase;
 }
 
 #logo {
