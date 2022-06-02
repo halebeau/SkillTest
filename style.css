@@ -12,8 +12,6 @@
     justify-content: space-between;
 }
 
-
-
 #logo {
   border-radius: 50%;
   border: solid black 1px;
@@ -47,17 +45,19 @@ nav ul li a {
   color: white;
   display: block;
   padding: 0 20px;
-  text-decoration: underline;
+  text-decoration: none;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   line-height: 50px;
   cursor: pointer;
+  border-bottom-style: solid;
+  margin-left: 30px;
 }
 
 nav ul li a:hover, 
 nav ul li a.active 
 {
-  color: green;
+  color: #3BC14A;
 }
 
 
